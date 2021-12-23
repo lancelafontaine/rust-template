@@ -1,29 +1,50 @@
 # Contribution guidelines
 
-First off, thank you for considering contributing to {{project-name}}.
+Thank you for considering contributing to {{project-name}}!
 
 If your contribution is not straightforward, please first discuss the change you
 wish to make by creating a new issue before making the change.
 
-## Reporting issues
+## Reporting Issues
 
 Before reporting an issue on the
 [issue tracker](https://github.com/{{gh-username}}/{{project-name}}/issues),
 please check that it has not already been reported by searching for some related
 keywords.
 
-## Pull requests
+## Getting Started
 
-Try to do one pull request per change.
+### Building & Running
 
-### Updating the changelog
+```shell
+cargo build --release && cargo run --release
+```
 
-Update the changes you have made in
+### Testing
+
+```shell
+cargo test --all-features --workspace
+```
+
+### Linting
+
+```shell
+cargo clippy --all-targets --all-features --workspace
+  ```
+
+### Formatting
+
+```shell
+cargo fmt --all
+```
+
+## Updating the Changelog
+
+Once you have a PR to submit, also update the changes you have made in
 [CHANGELOG](https://github.com/{{gh-username}}/{{project-name}}/blob/main/CHANGELOG.md)
 file under the **Unreleased** section.
 
-Add the changes of your pull request to one of the following subsections,
-depending on the types of changes defined by
+Your PR will likely fall under one of the following types as defined by
 [Keep a changelog](https://keepachangelog.com/en/1.0.0/):
 
 - `Added` for new features.
@@ -32,49 +53,3 @@ depending on the types of changes defined by
 - `Removed` for now removed features.
 - `Fixed` for any bug fixes.
 - `Security` in case of vulnerabilities.
-
-If the required subsection does not exist yet under **Unreleased**, create it!
-
-## Developing
-
-### Set up
-
-This is no different than other Rust projects.
-
-```shell
-git clone https://github.com/{{gh-username}}/{{project-name}}
-cd {{project-name}}
-cargo test
-```
-
-### Useful Commands
-{% if crate_type == "bin" %}
-- Build and run release version:
-
-  ```shell
-  cargo build --release && cargo run --release
-  ```
-{% endif %}
-- Run Clippy:
-
-  ```shell
-  cargo clippy --all-targets --all-features --workspace
-  ```
-
-- Run all tests:
-
-  ```shell
-  cargo test --all-features --workspace
-  ```
-
-- Check to see if there are code formatting issues
-
-  ```shell
-  cargo fmt --all -- --check
-  ```
-
-- Format the code in the project
-
-  ```shell
-  cargo fmt --all
-  ```
