@@ -1,6 +1,7 @@
 # Rust Github Template
 
-A template for [cargo generate](https://github.com/cargo-generate/cargo-generate) that aims to be a starting point suitable for
-the vast majority of rust projects that will be hosted on GitHub.
+A template for [cargo generate](https://github.com/cargo-generate/cargo-generate) that is the starting point for all of [@lancelafontaine](https://github.com/lancelafontaine)'s Rust projects on GitHub.
 
-See the project [website](https://rust-github.github.io).
+This template was originally forked from [`rust-github`'s template](https://github.com/rust-github/template) and customized for my projects.
+
+See the [`rust-github`'s website](https://rust-github.github.io) for details on setting up a new project.
