@@ -42,7 +42,7 @@ cargo install {{project-name}}
 
 ## 🤝 Contributing
 
-Thank you for considering contributing to {{project-name}}!
+Thank you for considering a contribution to {{project-name}}! Contributions or feedback of any kind are always welcome.
 
 Please keep in mind that unless you explicitly state otherwise, any contribution intentionally submitted
 for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
