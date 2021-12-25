@@ -42,11 +42,13 @@ cargo install {{project-name}}
 
 ## 🤝 Contributing
 
-Unless you explicitly state otherwise, any contribution intentionally submitted
+Thank you for considering contributing to {{project-name}}!
+
+Please keep in mind that unless you explicitly state otherwise, any contribution intentionally submitted
 for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
 dual licensed as above, without any additional terms or conditions.
 
-See [CONTRIBUTING.md](CONTRIBUTING.md).
+See [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to get started!
 
 ## 📝 License
 

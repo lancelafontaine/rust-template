@@ -1,7 +1,5 @@
 # Contribution guidelines
 
-Thank you for considering contributing to {{project-name}}!
-
 If your contribution is not straightforward, please first discuss the change you
 wish to make by creating a new issue before making the change.
 
