@@ -22,6 +22,8 @@ cargo generate --git https://github.com/lancelafontaine/rust-template.git
 
 - Create a new empty GitHub repository and follow the instructions to push the newly-created local repository to Github.
 
+- Protect the main branch, require a pull request to the repository before merging, and rrequire status checks to pass before merging.
+
 - Set up your [crates.io token](https://doc.rust-lang.org/cargo/reference/publishing.html) in a [GitHub secret](https://docs.github.com/en/actions/security-guides/encrypted-secrets) called `CARGO_API_KEY`.
 
 
