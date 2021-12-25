@@ -18,16 +18,6 @@
   {{project-name}} is a project that still needs to be described.
 </p>
 
-<p align="center">
-  <a href="#🚀-installation">Installation</a>
-  ·
-  <a href="#🧑‍💻-usage">Usage</a>
-  ·
-  <a href="#🤝-contributing">Contributing</a>
-  ·
-  <a href="#📝-license">License</a>
-</p>
-
 ## 🚀 Installation
 
 ```shell
