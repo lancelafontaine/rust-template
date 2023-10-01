@@ -18,6 +18,9 @@
   {{project-name}} is a project that still needs to be described.
 </p>
 
+> **Warning**
+> This project is not ready for production use and should be considered highly unstable and experimental. Expect things to be broken, undocumented, or untested.
+
 ## 🚀 Installation
 
 ```shell
